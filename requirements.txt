@@ -1,0 +1,3 @@
+yt-dlp
+faster-whisper
+todoist-api-python

@@ -1,0 +1,22 @@
+{
+  "source": "todoist",
+
+  "inbox": { "path": "inbox.md", "reviews_dir": "" },
+  "todoist": { "project_name": "Watch Later", "reviewed_section": "Reviewed", "failed_section": "Couldn't process" },
+  "raindrop": { "collection": "Watch Later", "reviewed_tag": "reviewed", "failed_tag": "couldnt-process" },
+  "notion": {
+    "database_id": "",
+    "url_property": "URL",
+    "status_property": "Status",
+    "reviewed_value": "Reviewed",
+    "failed_value": "Couldn't process"
+  },
+
+  "env_file": ".env",
+  "inspect_pc": true,
+  "cookies_from_browser": "",
+  "whisper_model": "large-v3-turbo",
+  "whisper_cpu_model": "small",
+  "max_per_run": 10,
+  "claude_timeout_minutes": 15
+}

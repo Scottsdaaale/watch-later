@@ -1,0 +1,11 @@
+# personal setup and data
+.env
+config.json
+inbox.md
+reviews/
+logs/
+
+# python
+.venv/
+__pycache__/
+*.pyc
