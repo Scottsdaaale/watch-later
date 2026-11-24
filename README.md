@@ -7,6 +7,12 @@ Every night, watch-later picks up the videos you saved for later, transcribes th
 > **Verdict:** ✅ Worth doing · 🟡 Maybe / depends · ⏭️ Skip · ☑️ Already set on this PC
 > plus what the video claims, whether it's true (with sources), what your PC has now, and the steps (and how to undo them) if it's worth doing.
 
+> [!TIP]
+> **Claude sets it up for you.** This repo has built-in setup instructions for [Claude Code](https://docs.claude.com/en/docs/claude-code). Download it, open the folder in Claude Code and say hi. Claude asks which app you share videos to, installs everything and schedules the nightly run. You just answer a few questions and do the steps on your phone. [Quick start ↓](#quick-start)
+
+> [!IMPORTANT]
+> **Windows only, for now.** It's built and tested on Windows 10/11, and the reviews check your PC's settings with Windows commands. macOS and Linux aren't supported yet.
+
 ## How it works
 
 ```
@@ -23,7 +29,7 @@ your save spot ──► yt-dlp ──► faster-whisper ──► claude -p (re
 
 ## Quick start
 
-You need [Claude Code](https://docs.claude.com/en/docs/claude-code) (signed in) and Python 3.11–3.13. A GPU is optional.
+You need a Windows 10/11 PC with [Claude Code](https://docs.claude.com/en/docs/claude-code) (signed in). Claude installs Python 3.12 for you if it's missing. A GPU is optional.
 
 ```bash
 git clone https://github.com/Scottsdaaale/watch-later

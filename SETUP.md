@@ -22,7 +22,7 @@ Total time: about 15 minutes, most of it downloads.
 | Claude Code, signed in | `claude --version` | Install it, then run `claude` once and sign in. |
 | NVIDIA GPU (optional) | `nvidia-smi` | Fine without one. Transcription uses the CPU and a smaller model, which is plenty for short videos. |
 
-Windows is the main target: the reviews check the PC's settings with Windows commands. On macOS and Linux everything else works; the reviews just won't inspect the computer.
+**Windows only, for now.** watch-later is built and tested on Windows 10/11, and the reviews check the PC's settings with Windows commands. macOS and Linux aren't supported yet: `install.sh` and the macOS/Linux notes below are an untested starting point. If they're not on Windows, tell them that before installing anything, and only continue if they want to try it anyway.
 
 ## 2. Ask which app they share videos to
 

@@ -6,6 +6,8 @@ You're helping someone run watch-later: nightly, read-only reviews of the videos
 
 Check whether it's set up: `config.json` and `.venv/` both exist in this folder.
 
+watch-later is **Windows only for now**. If this computer isn't Windows, say so in your first reply, before offering setup. macOS and Linux are untested; continue only if they want to try anyway.
+
 - **Not set up:** in your first reply, greet them in one line, say setup takes about 15 minutes and that you'll do the work and ask a few questions, and offer to start. If they agree, or their first message already asks to set up, install or get started, follow [SETUP.md](SETUP.md) from the top, starting with its "Notes for Claude".
 - **Set up:** help with whatever they ask. For "it stopped working", run `--check` and read the newest file in `logs/` first.
 
