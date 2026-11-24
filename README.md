@@ -31,7 +31,7 @@ cd watch-later
 claude
 ```
 
-Then say **"set this up"**. Claude follows [SETUP.md](SETUP.md): it asks where you save videos, connects that, installs everything, reviews one video as a test, and schedules the nightly run. Every step is also written out if you'd rather do it by hand.
+Claude sees it isn't set up yet and offers to do it (or type **`/setup`**, or just say "set this up"). It follows [SETUP.md](SETUP.md): it asks which app you share videos to, connects it, installs Python if needed and everything else, reviews one video as a test, and schedules the nightly run. You only do the parts that have to happen on your phone, plus pasting your app's token into `.env` (Claude never sees it). Every step is also written out if you'd rather do it by hand.
 
 ## Save it the way you already do: Share → your app
 

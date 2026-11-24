@@ -1,6 +1,6 @@
 # Setting up watch-later
 
-> **Easiest way:** open this folder in [Claude Code](https://docs.claude.com/en/docs/claude-code) and say **"set this up"**. Claude follows this file step by step and asks you a few questions along the way.
+> **Easiest way:** open this folder in [Claude Code](https://docs.claude.com/en/docs/claude-code) (`claude`) and type **`/setup`** (or say "set this up"). Claude follows this file step by step, does the installing for you and asks a few questions along the way.
 > Prefer doing it yourself? Every step below has the commands.
 
 Total time: about 15 minutes, most of it downloads.
